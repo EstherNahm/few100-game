@@ -1,3 +1,26 @@
-h1 {
-    color:red;
+* {
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+.square {
+    width: 28.81%;
+    background-color: lightskyblue;
+    padding-bottom: 28.81%;
+    float: left;
+    margin: 2.2%;
+    border-radius: 18.9%;
+    transition: background-color 0.8s;
+    transition: border-radius 0.8s;
+}
+
+.square.winner {
+    background-color: lightpink;
+    border-radius: 40%;
+}
+
+.square.loser {
+    background-color: lightgreen;
+    border-radius: 40%;
 }
